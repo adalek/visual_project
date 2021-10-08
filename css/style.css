@@ -25,7 +25,7 @@ div.plan1 p {
     align-items: center;
     justify-content: center;
     white-space: pre;
-    font-size: 30px;
+    font-size: 20px;
 
  }
 
@@ -37,12 +37,12 @@ div.plan1 p {
  }
 
 .plan2{
-  padding: 45%;
+  padding: 35%;
   padding-top: 200px;
   padding-bottom: 10px;
   filter: blur(0px);
   text-shadow: 0 0 6px #fff;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /*plan2 text align*/
