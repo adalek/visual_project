@@ -1,5 +1,5 @@
 let voice = document.getElementById('voice');
-voice.play()
+voice.pause()
 voice.volume=0.1
 
 window.onscroll = function(){
