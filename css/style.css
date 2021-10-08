@@ -17,8 +17,8 @@ div{
 
 p{
   color:white;
-
 }
+
 div.plan1 p {
     margin: 0;
     display: flex;
@@ -45,14 +45,11 @@ div.plan1 p {
   font-size: 30px;
 }
 
-.linetight{
-
-}
-
 /*plan2 text align*/
 .center{
   text-align: center;
 }
+
 
 .button{
   color:black;
@@ -66,6 +63,8 @@ div.plan1 p {
   text-shadow: 0 0 100px #fff;
   color:green;
 }
+
+/*glimmer effect*/
 span{
   color:#111;
   white-space: pre;
@@ -132,6 +131,7 @@ span:nth-child(6){
 
 }
 
+/*button hyperlink animation*/
 @keyframes church {
   40%{
     color:white;
