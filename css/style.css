@@ -1,11 +1,11 @@
 /*Architects Daughter is handwriting style */
 /*font-family: 'Architects Daughter', cursive;
 font-family: 'Rajdhani', sans-serif;*/
+/* matrix green:#03A062*/
 
 body{
   font-family: 'Rajdhani', sans-serif;
   background-color: black;
-  color:white;
 }
 
 div{
@@ -14,38 +14,107 @@ div{
   justify-content: center;
   align-items: center;
 }
-.plan1{
-  padding: 30%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 10em;
-}
+
 p{
-  filter: blur(1px);
-  text-shadow: 0 0 10px #fff;
-  font-size: 30px;
+  color:white;
+
 }
 div.plan1 p {
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    white-space: pre;
+    font-size: 30px;
+
+ }
+
+ .plan1{
+   padding: 30%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   height: 10em;
  }
 
 .plan2{
-
-  padding: 49%;
+  padding: 30%;
   padding-top: 200px;
+  filter: blur(1px);
+  text-shadow: 0 0 6px #fff;
+  font-size: 40px;
 }
 
 .linetight{
 
 }
 
-/*plan1 text align*/
+/*plan2 text align*/
 .center{
   text-align: center;
 }
-.poem{
+
+span{
+  color:#111;
+  white-space: pre;
+  text-shadow: 0;
+  animation: animate 2s linear infinite;
+  filter: blur(0px);
+}
+span:nth-child(1){
+  animation-delay: 0s;
+}
+span:nth-child(2){
+  animation-delay: 1s;
+}
+span:nth-child(3){
+  animation-delay: 2s;
+  animation-duration: 1s;
+}
+span:nth-child(4){
+  animation-delay: 3s;
+}
+span:nth-child(5){
+  animation-delay: 4s;
+}
+span:nth-child(6){
+  animation-delay: 5s;
+}
+@keyframes animate{
+  0%,3%{
+    color:#111
+    filter: blur(1px);
+    text-shadow: 0 0 6px #111;
+  }
+  5%,7%{
+    color:#fff;
+    filter: blur(0px);
+    text-shadow: 0 0 10px #fff;
+  }
+  30%,32%{
+    color:#111
+    filter: blur(0px);
+    text-shadow: 0 0 6px #111;
+  }
+
+  40%,42%{
+    color:#fff;
+    filter: blur(0px);
+    text-shadow: 0 0 10px #fff;
+  }
+  50%,60%{
+    color:#111
+    filter: blur(0px);
+    text-shadow: 0 0 6px #111;
+  }
+  60%,65%{
+    color:#fff;
+    filter: blur(0px);
+    text-shadow: 0 0 6px #fff;
+  }
+  100%{
+    color:#fff;
+    filter: blur(0px);
+    text-shadow: 0 0 6px #fff;
+  }
 
 }
