@@ -37,11 +37,12 @@ div.plan1 p {
  }
 
 .plan2{
-  padding: 30%;
+  padding: 45%;
   padding-top: 200px;
-  filter: blur(1px);
+  padding-bottom: 10px;
+  filter: blur(0px);
   text-shadow: 0 0 6px #fff;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .linetight{
@@ -53,6 +54,18 @@ div.plan1 p {
   text-align: center;
 }
 
+.button{
+  color:black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: church 3.5s linear infinite;
+}
+.button:hover{
+  text-shadow: 0 0 100px #fff;
+  color:green;
+}
 span{
   color:#111;
   white-space: pre;
@@ -115,6 +128,18 @@ span:nth-child(6){
     color:#fff;
     filter: blur(0px);
     text-shadow: 0 0 6px #fff;
+  }
+
+}
+
+@keyframes church {
+  40%{
+    color:white;
+    text-shadow: 0 0 2px #fff;
+  }
+  80%{
+    color:black;
+    text-shadow: 0 0 2px #111;
   }
 
 }
