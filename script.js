@@ -1,5 +1,6 @@
 let voice = document.getElementById('voice');
-
+voice.play()
+voice.volume=0.1
 
 window.onscroll = function(){
   scrollingControl(document.documentElement.scrollHeight,2000,voice);
@@ -16,8 +17,7 @@ function scrollingControl(y,d,m){
 
   let distance= targetY-scrollY
   console.log("distance:"+distance);
-   m.play()
-   m.volume=0
+
 
   if (distance<d){
     m.volume= 1-distance/d;
