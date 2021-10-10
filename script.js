@@ -1,6 +1,9 @@
 let voice = document.getElementById('voice');
-voice.pause()
-voice.volume=0.1
+voice.play()
+voice.volume = 0.1
+
+let glitch = document.getElementById('glitch')
+glitch.volume = 0.2;
 
 window.onscroll = function(){
   scrollingControl(document.documentElement.scrollHeight,2000,voice);
