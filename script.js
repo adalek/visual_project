@@ -1,5 +1,4 @@
 let voice = document.getElementById('voice');
-voice.play()
 voice.volume = 0.1
 
 let glitch = document.getElementById('glitch')
