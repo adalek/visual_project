@@ -5,7 +5,7 @@ let glitch = document.getElementById('glitch')
 glitch.volume = 0.2;
 
 window.onscroll = function(){
-  scrollingControl(document.documentElement.scrollHeight,2000,voice);
+  scrollingControl(document.documentElement.scrollHeight,1600,voice);
 
 }
 
